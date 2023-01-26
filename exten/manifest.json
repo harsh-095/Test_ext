@@ -1,0 +1,14 @@
+{
+    "name":"Test_ext",
+    "description":"Test Support Extension",
+    "version":"1.0",
+    "permissions":["tabs"],
+    "content_scripts":[
+        {
+            "matches":["testurl"],
+            "js":["contentScript.js"]
+        }
+    ],
+    
+    "manifest_version":3
+}
